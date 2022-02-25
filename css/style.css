@@ -1,0 +1,104 @@
+.b1{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+}
+.form-group{
+    margin: 10px 0;
+}
+.form-control{
+    width: 98%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.form-group label{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.form-control:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid yellow;
+}
+.form-button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: orangered;
+    box-shadow: inset 0 0 20px blue;
+}
+.form-button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.form-button:disabled{
+    color: darkgrey;
+    box-shadow: inset 0 0 20px gray;
+}
+/* Style the top navigation bar */
+.menu {
+    height:40px;
+    width: 100%;
+    background-color: rgb(252, 152, 219);
+    word-spacing: 1px;  
+    padding-top: 19px;
+}
+.menu>a {color: rgb(0, 0, 0);
+    margin: 0 30px; 
+    text-align: center;
+    text-decoration: none;
+    font-weight: 200;
+}
+.menu a:hover {
+    color: brown;
+    text-shadow: brown;
+    font-weight: bold;
+    transition: all .2s linear;
+}
+footer{
+    width: 100%;
+    background:rgb(67, 139, 172);
+    color:rgb(255, 255, 255);
+    }
+footer .footer-item{
+    text-align: center;
+    display:inline-block;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-top: 10px;
+    font-size: 20px;
+    }
+footer .footer-item h3{
+    margin: 30px 0;
+    }
+    
+footer.link a{
+    display: block;
+    text-align: center;
+    margin: 3px 0;
+    }
+footer .footer-item:hover{
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s linear;
+    }
+footer .footer-item:hover img{
+    box-shadow:rgb(255, 255, 255) 0px 5px 8px;
+    transition:all 0.3 linear
+    }
+    
+.tulu{
+    background:wheat;
+    color: rgb(34, 17, 17);
+    text-align: center;
+    padding: 10px;
+    }
+.tulu{
+    padding-top: 10px;
+}
